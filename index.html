@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Af Wedding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+            <h1 data-aos="fade-down" data-aos-duration="1000">Agun & Salma</h1>
+            <p>Akan melangsungkan pernikahan dalam:</p>
+            <div class="simply-countdown" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000"></div>
+            <a href="#nav" class="btn btn-lg mt-4" onclick="enableScrool()" data-aos="fade-up" data-aos-delay="2000" data-aos-duration="1000">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar" id="nav">
+        <div class="container" data-aos="fade-down" data-aos-duration="1000">
+            <a class="navbar-brand" href="#">Af</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Af</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#info">Info</a>
+                        <a class="nav-link" href="#story">Story</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                        <a class="nav-link" href="#rsvp">RSPV</a>
+                        <a class="nav-link" href="#gifts">Gifts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="800">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 28 November 2023 di Jakarta.</h3>
+                    <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan kami.</p>
+                </div>
+            </div>
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1200">Agun Fahroji</h3>
+                            <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quam iusto recusandae nihil vitae ea.</p>
+                            <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2400">Putra dari Bpk. Lorem <br>dan <br> Ibu Ipsum</p>
+                        </div>
+                        <div class="col-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2200">
+                            <img src="img/af.jpeg" alt="Agun Fahroji" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <span class="heart"><i class="bi bi-heart-fill"></i></span>
+                <div class="col-lg-6 pb-5">
+                    <div class="row">
+                        <div class="col-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2800">
+                            <img src="img/sl.jpg" alt="Salma" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1600">Salma</h3>
+                            <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2400">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quam iusto recusandae nihil vitae ea.</p>
+                            <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="2400">Putra dari Bpk. Ipsum <br>dan <br> Ibu Lorem</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- Info -->
+    <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2 data-aos="fade-up" data-aos-duration="1000">Informasi Acara</h2>
+                    <p class="alamat">Alamat : Jl. In aja dulu - Jakarta</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.361878568876!2d106.7948331!3d-6.215916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14d30079f01%3A0x2e74f2341fff266d!2sStadion%20Utama%20Gelora%20Bung%20Karno!5e0!3m2!1sid!2sid!4v1700358776509!5m2!1sid!2sid"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="https://maps.app.goo.gl/mPc4yeofp6aymvgh9" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+                    <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light mb-5" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="card-header">
+                            Akad Nikah
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-alarm d-block"></i>
+                                    <span>08:00 - 10:00</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar-day d-block"></i>
+                                    <span>Minggu, 28 November 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara akad diharapkan untuk kondusif agar berjalan dengan lancar.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="card-header">
+                            Resepsi
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-alarm d-block"></i>
+                                    <span>11:00 s/d selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar-day d-block"></i>
+                                    <span>Minggu, 28 November 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara akad diharapkan untuk kondusif agar berjalan dengan lancar.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Enf nfo -->
+
+    <!-- Story -->
+    <section id="story" class="story">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Bagaimana Cinta Kami Bersemi</span>
+                    <h2 data-aos="zoom-out" data-aos-duration="1000">Cerita Kami</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum minima fugiat sapiente pariatur non!</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-img" style="background-image: url(img/gbk.jpg);"></div>
+                            <div class="timeline-panel" data-aos="fade-left" data-aos-duration="1000">
+                                <div class="timeline-heading">
+                                    <h3>Pertama bertemu</h3>
+                                    <span>01 Mei 2000</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, minima. Hic nobis dicta ipsa reiciendis.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-kanan">
+                            <div class="timeline-img" style="background-image: url(https://picsum.photos/300/300);"></div>
+                            <div class="timeline-panel" data-aos="fade-right" data-aos-duration="1000">
+                                <div class="timeline-heading">
+                                    <h3>Mulai serius</h3>
+                                    <span>23 Aug 2003</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nulla minus earum fugit incidunt? Cupiditate, quaerat quia!.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-img" style="background-image: url(https://picsum.photos/301/301);"></div>
+                            <div class="timeline-panel" data-aos="fade-left" data-aos-duration="1000">
+                                <div class="timeline-heading">
+                                    <h3>Jadian</h3>
+                                    <span>07 Juli 2001</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vero ratione sequi.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-kanan">
+                            <div class="timeline-img" style="background-image: url(https://picsum.photos/302/302);"></div>
+                            <div class="timeline-panel" data-aos="fade-right" data-aos-duration="1000">
+                                <div class="timeline-heading">
+                                    <h3>Tunangan</h3>
+                                    <span>13 Februari 2010</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repellendus ratione explicabo quasi atque iure eaque laudantium unde maxime. Harum.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Story -->
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Memori Kisah Kami</span>
+                    <h2 data-aos="flip-up" data-aos-duration="1000">Gallery Foto</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, vel. Illum in voluptas commodi id, porro odio temporibus ipsum reprehenderit. Ad quae praesentium porro amet?</p>
+                </div>
+            </div>
+            <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                <div class="col mt-3" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="img/gallery/mrb.jpg" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+                        <img src="img/gallery/thumb/mrb.jpg" alt="Mrb" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    <a href="https://picsum.photos/id/3/1200/768" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+                        <img src="https://picsum.photos/id/3/300/400" alt="Mrb" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    <a href="https://picsum.photos/id/131/1200/768" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+                        <img src="https://picsum.photos/id/131/300/400" alt="Mrb" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <a href="https://picsum.photos/id/73/1200/768" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+                        <img src="https://picsum.photos/id/73/300/400" alt="Mrb" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <a href="https://picsum.photos/id/223/1200/768" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+                        <img src="https://picsum.photos/id/223/300/400" alt="Mrb" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                    <a href="https://picsum.photos/id/123/1200/768" data-toggle="lightbox" data-caption="This describes the image" data-gallery="mygallery">
+                        <img src="https://picsum.photos/id/123/300/400" alt="Mrb" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- RSPV -->
+    <section id="rspv" class="rspv">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2 data-aos="fade-down" data-aos-duration="1000">Konfirmasi Kehadiran</h2>
+                    <p>Isi form dibawah ini untuk melakukan konfirmasi kehadiran.</p>
+                </div>
+            </div>
+            <form class="row row-cols-md-auto g-3 align-items-center justify-content-center">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah Kehadiran</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="9" length="1" value="1">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select">
+                            <option selected>Pilih salah satu</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary">Kirim</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!-- End RSPV -->
+
+    <!-- Gifts -->
+    <section id="gifts" class="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Ungkapan Tanda Kasih</span>
+                    <h2 data-aos="fade-down" data-aos-duration="1000">Kirim Hadiah</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut doloribus totam soluta.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="fw-bold">BCA</div>
+                            123456789 - AGUN FAHROJI
+                        </li>
+                        <li class="list-group-item">
+                            <div class="fw-bold">MANDIRI</div>
+                            987654321 - AGUN FAHROJI
+                        </li>
+                        <li class="list-group-item">
+                            <div class="fw-bold">QRIS BCA</div>
+                            <img src="img/saweria.webp" alt="saweria" class="img-thumbnail" width="150">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gifts -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">&copf; 2023 Af Wedding. All Right Reserved.</small>
+                    <small class="block">Design by <a href="#">@sandhikagalih</a>.</small>
+
+                    <ul class="mt-3">
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="audio-container">
+        <audio id="song" autoplay loop>
+            <source src="audio/Coldplay - Fix You.mp3" type="audio/mp3">
+        </audio>
+        <div class="audio-icon" style="display: none;">
+            <i class="bi bi-disc"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        simplyCountdown('.simply-countdown', {
+            year: 2023, // required
+            month: 11, // required
+            day: 28, // required
+            words: { //words displayed into the countdown
+                days: {
+                    singular: 'hari',
+                    plural: 'hari'
+                },
+                hours: {
+                    singular: 'jam',
+                    plural: 'jam'
+                },
+                minutes: {
+                    singular: 'menit',
+                    plural: 'menit'
+                },
+                seconds: {
+                    singular: 'detik',
+                    plural: 'detik'
+                }
+            }
+
+        });
+    </script>
+
+    <script>
+        const stickyTop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function() {
+            stickyTop.style.overflow = 'visible';
+        });
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+            stickyTop.style.overflow = 'hidden';
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+        const rootElement = document.querySelector(":root");
+        const audioIcon = document.querySelector('.audio-icon');
+        const songIcon = document.querySelector('.audio-icon i');
+        const song = document.querySelector('#song');
+        let isPlaying = false;
+
+        function disableScroll() {
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function() {
+                window.scrollTo(scrollTop, scrollLeft);
+
+            }
+
+            rootElement.style.scrollBehavior = 'auto';
+
+        }
+
+        function enableScrool() {
+            window.onscroll = function() {}
+            rootElement.style.scrollBehavior = 'smooth';
+            // localStorage.setItem('opened', 'true');
+            playaudio();
+
+        }
+
+        function playaudio() {
+            song.volume = 0.1;
+            audioIcon.style.display = 'flex';
+            song.play();
+            isPlaying = true;
+        }
+
+        audioIcon.onclick = function() {
+            if (isPlaying) {
+                song.pause();
+                songIcon.classList.remove('bi-disc');
+                songIcon.classList.add('bi-pause-circle');
+            } else {
+                song.play();
+                songIcon.classList.add('bi-disc');
+                songIcon.classList.remove('bi-pause-circle');
+            }
+
+            isPlaying = !isPlaying;
+
+        }
+
+
+
+
+
+        // if (!localStorage.getItem('opened')) {
+
+        // }
+        disableScroll();
+    </script>
+</body>
+
+</html>
